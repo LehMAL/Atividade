@@ -1,6 +1,4 @@
-import NavibarComponent from './Components/NavBarComponent';
 import React from 'react';
-import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -11,6 +9,7 @@ import {
 import HomePage from './Pages/HomePage';
 import FormPage from './Pages/FormPage';
 import AboutUsPage from './Pages/AboutUsPage';
+import NaviBarComponent from './Components/NaviBarComponent';
 
 
 const router = createBrowserRouter([
@@ -33,7 +32,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-   <NavibarComponent/>
+   <NaviBarComponent/>
     <RouterProvider router={router} />
   </React.StrictMode>
 );

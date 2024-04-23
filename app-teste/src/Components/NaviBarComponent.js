@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-function NavibarComponent() {
+function NaviBarComponent() {
 
   return (
 
@@ -11,7 +11,7 @@ function NavibarComponent() {
 
       <Container>
 
-        <Navbar.Brand href="/Page"></Navbar.Brand>
+        <Navbar.Brand href=""><h3>Menu</h3></Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         
@@ -34,4 +34,4 @@ function NavibarComponent() {
   );
 }
 
-export default NavibarComponent;
+export default NaviBarComponent;
