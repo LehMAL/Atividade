@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import imagemLogo from '../images/imagemLogo.jpg';
 
 
 function NaviBarComponent() {
@@ -11,7 +12,10 @@ function NaviBarComponent() {
 
       <Container>
 
-        <Navbar.Brand href=""><h3>Menu</h3></Navbar.Brand>
+      <Navbar.Brand href="/home">
+      <img src={imagemLogo} title='logo' style={{ width: '60px' }} />
+      </Navbar.Brand>
+
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         

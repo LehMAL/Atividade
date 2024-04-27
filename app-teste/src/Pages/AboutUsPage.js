@@ -10,11 +10,11 @@ function AboutUsPage(){
                     <div className="card-header h4">Sobre Nós</div>
 
                     <div className="card-body mt-3">
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-lg-10 mx-3">
 
-                        <label>🌟 Obrigado por Usar Nosso App! 🌟
+                        <label>🌟 Obrigado por Usar Nosso App! 🌟<br/><br/>
 
-                            Olá!
+                           
 
                             Gostaríamos de expressar nossa sincera gratidão por escolher usar nosso aplicativo. É uma honra ter você como parte da nossa comunidade!
 
@@ -26,7 +26,7 @@ function AboutUsPage(){
 
                             Mais uma vez, obrigado por escolher nosso aplicativo. Estamos muito empolgados em continuar essa jornada com você!
 
-                            Com gratidão,
+                            Com gratidão,<br/><br/>
 
                             Moça 1</label>
 
